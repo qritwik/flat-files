@@ -40,6 +40,12 @@ for row in rule_sheet.iter_rows('A2:C14'):
 					for a in my_data:
 						fin = fin +" "+str(input_sheet.cell(row = i, column = int(a)).value)
 					output_sheet.cell(row = i, column = out).value = fin
+
+
+	#For concat and add --> 3
+	elif(rule == 3):
+		
+
 				
 
 
